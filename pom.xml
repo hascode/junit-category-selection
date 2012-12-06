@@ -49,7 +49,7 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
 						<configuration>
-							<groups>com.hascode.tutorial.test.group.FastTests</groups>
+							<groups>com.hascode.tutorial.test.group.FastRunningTests</groups>
 						</configuration>
 					</plugin>
 				</plugins>
@@ -63,7 +63,7 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
 						<configuration>
-							<groups>com.hascode.tutorial.test.group.SlowTests</groups>
+							<groups>com.hascode.tutorial.test.group.SlowRunningTests</groups>
 						</configuration>
 					</plugin>
 				</plugins>

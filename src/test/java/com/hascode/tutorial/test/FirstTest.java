@@ -5,9 +5,9 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-import com.hascode.tutorial.test.group.FastTests;
+import com.hascode.tutorial.test.group.FastRunningTests;
 
-@Category({ FastTests.class })
+@Category({ FastRunningTests.class })
 public class FirstTest {
 	@Test
 	public void testSth() throws Exception {
